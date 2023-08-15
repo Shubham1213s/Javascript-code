@@ -1,0 +1,11 @@
+Code on the arrays
+
+var guestList = ["shubham", "sanket", "shivam", "kale", "jayawant", "Push"];
+
+var guestName = prompt("write your name ");
+
+if (guestList.includes(guestName)){
+    alert("Welcome");
+}else{
+    alert("Sorry, next time");
+}
